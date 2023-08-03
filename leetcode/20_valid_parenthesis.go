@@ -1,10 +1,10 @@
 package main
 
-import "fmt"
+//import "fmt"
 
-func main() {
-	fmt.Print(isValid("([)]"))
-}
+//func main() {
+//	fmt.Print(isValid("([)]"))
+//}
 
 func isValid(s string) bool {
 	if len(s) == 0 || len(s)%2 == 1 {
