@@ -1,15 +1,6 @@
 package main
 
-import "fmt"
-
-func main() {
-
-	number := romanToInt("I")
-
-	fmt.Println(number)
-}
-
-func romanToInt(s string) int {
+func RomanToInt(s string) int {
 
 	romanAsInt := map[string]int{
 		"I": 1,
