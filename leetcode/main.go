@@ -4,5 +4,5 @@ import "fmt"
 
 func main() {
 
-	fmt.Println(RemoveDuplicates([]int{1, 1, 2}))
+	fmt.Println(Merge([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3))
 }
