@@ -1,21 +1,32 @@
 package main
 
 func RemoveDuplicates(nums []int) int {
+	// Get the length of the input slice
 	n := len(nums)
-	nonDups := make(map[int]int)
 
-    var number int
-    j := 0
-	for i:= 0; i<n; i++{
-        number = nums[i]
-		if nonDups[number] > 0{
-            continue
-        }else{
-            nums[j]=number
-            nonDups[number] = 1
-            j++
-        }
-	}	
+	// Create a map to store non-duplicate numbers
+	nonDuplicates := make(map[int]int)
 
-	return j
+	// Initialize variables
+	var currentNumber int
+	newIndex := 0
+
+	// Iterate over the input slice
+	for i := 0; i < n; i++ {
+		currentNumber = nums[i]
+
+		// Check if the current number is already in the nonDuplicates map
+		if nonDuplicates[currentNumber] > 0 {
+			// If it is, continue to the next iteration without updating the slice or map
+			continue
+		} else {
+			// If it's not, update the slice and map with the current number
+			nums[newIndex] = currentNumber
+			nonDuplicates[currentNumber] = 1
+			newIndex++
+		}
+	}
+
+	// Return the new length of the slice after removing duplicates
+	return newIndex
 }
