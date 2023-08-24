@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func GetConcatenationOneLiner(nums []int) []int {
 	return append(nums, nums...)

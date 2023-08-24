@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func SearchInsert(nums []int, target int) int {
 	n := len(nums)

@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func Shuffle(nums []int, n int) []int {
 	newArray := []int{}

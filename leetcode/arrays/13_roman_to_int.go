@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func RomanToInt(s string) int {
 

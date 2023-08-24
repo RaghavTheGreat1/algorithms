@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func PlusOneOptimal(digits []int) []int {
 	n := len(digits)

@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func MaxProfit(prices []int) int {
 	minIndex, minValue := 0, prices[0]

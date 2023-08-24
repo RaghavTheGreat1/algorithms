@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func NumberOfEmployeesWhoMetTarget(hours []int, target int) int {
 	employees := 0

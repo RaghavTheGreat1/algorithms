@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func Merge(nums1 []int, m int, nums2 []int, n int) []int {
 	mergedSortedArray := make([]int, m+n)

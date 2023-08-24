@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func FinalValueAfterOperations(operations []string) int {
 	x := 0
