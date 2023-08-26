@@ -1,4 +1,4 @@
-package main
+package arrays
 
 func ContainsDuplicate(nums []int) bool {
 
