@@ -1,3 +1,5 @@
+package arrays
+
 func CreateTargetArray(nums []int, index []int) []int {
     n := len(nums)
     target := make([]int, 1)
